@@ -8,6 +8,8 @@ public class Numberpalingdrom {
 		int sum = 0;
 		int temp = a;
 		while (a > 0) {
+			
+			
 			int rem = a % 10;
 			sum = (sum * 10) + rem;
 			a = a / 10;
